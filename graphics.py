@@ -32,7 +32,7 @@ class Window:
         self.__root = Tk()
         self.__root.title("Mazer")
         self.__canvas = Canvas(self.__root,
-                               background="cyan",
+                               background="white",
                                width=width,
                                height=height)
         self.__canvas.pack(fill=BOTH, expand=1)
